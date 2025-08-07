@@ -165,7 +165,7 @@ Ensure FFmpeg is installed and accessible on your system path.
 
 ---
 
-## π“„ License
+## License
 
 MIT License  
 Feel free to use, modify, and distribute.
