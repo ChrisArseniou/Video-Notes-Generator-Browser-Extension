@@ -4,6 +4,17 @@ Transform any YouTube video into **summarized, structured notes** using speech r
 This project combines a Python backend with a browser extension frontend to make learning from videos easier and faster.
 
 ---
+First, the user enters the link.
+
+<img width="400" height="400" alt="initial" src="https://github.com/user-attachments/assets/8a861f32-33b3-4951-bd81-9a3a225c940d" />
+
+Then by clicking on the Generate button, the process begins.
+
+<img width="400" height="400" alt="generating" src="https://github.com/user-attachments/assets/91eee51b-3e96-4b1e-9227-7049fb1d700e" />
+
+And finally our notes!
+
+<img width="400" height="400" alt="notes" src="https://github.com/user-attachments/assets/0793ecd4-e2f4-4c9e-b54f-d7aeff0e9891" />
 
 ## Overview
 
@@ -129,17 +140,6 @@ print(summary)
 ```
 
 ---
-First, the user enters the link.
-
-<img width="200" height="200" alt="initial" src="https://github.com/user-attachments/assets/8a861f32-33b3-4951-bd81-9a3a225c940d" />
-
-Then by clicking on the Generate button, the process begins.
-
-<img width="200" height="200" alt="generating" src="https://github.com/user-attachments/assets/91eee51b-3e96-4b1e-9227-7049fb1d700e" />
-
-And finally our notes!
-
-<img width="200" height="200" alt="notes" src="https://github.com/user-attachments/assets/0793ecd4-e2f4-4c9e-b54f-d7aeff0e9891" />
 
 ## Installation
 
