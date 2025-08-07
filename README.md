@@ -81,10 +81,6 @@ A simple browser extension allows you to summarize YouTube videos directly from 
 
 **Directory:** `/extension/`
 
-> Want help generating the manifest or popup UI code? Just ask.
-
----
-
 ## Requirements
 
 ### Python Packages
@@ -115,7 +111,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/path/to/key.json"
 
 ---
 
-## π€ Example Usage
+## Example Usage
 
 ```python
 from downloader import download_audio
@@ -133,8 +129,16 @@ print(summary)
 ```
 
 ---
+First, the user enters the link.
+<img width="597" height="711" alt="initial" src="https://github.com/user-attachments/assets/8a861f32-33b3-4951-bd81-9a3a225c940d" />
 
-## π“¦ Installation
+Then by clicking on the Generate button, the process begins.
+<img width="579" height="717" alt="generating" src="https://github.com/user-attachments/assets/91eee51b-3e96-4b1e-9227-7049fb1d700e" />
+
+And finally our notes!
+<img width="643" height="824" alt="notes" src="https://github.com/user-attachments/assets/0793ecd4-e2f4-4c9e-b54f-d7aeff0e9891" />
+
+## Installation
 
 ### Python Environment
 Use your preferred environment manager (e.g., `venv`, `poetry`, or `conda`), then install:
@@ -148,7 +152,7 @@ Ensure FFmpeg is installed and accessible on your system path.
 
 ---
 
-## π“ To Do / Roadmap
+## To Do / Roadmap
 
 - [ ] Add support for multilingual transcription
 - [ ] Provide export options (Markdown, PDF)
