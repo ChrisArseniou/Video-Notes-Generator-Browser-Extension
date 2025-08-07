@@ -1,0 +1,6 @@
+Flask
+yt-dlp
+pydub
+google-cloud-speech
+openai
+google.generativeai
