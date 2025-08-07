@@ -1,11 +1,11 @@
-# π§ YouTube to Notes
+# YouTube to Notes
 
 Transform any YouTube video into **summarized, structured notes** using speech recognition and AI summarization.  
 This project combines a Python backend with a browser extension frontend to make learning from videos easier and faster.
 
 ---
 
-## π“ Overview
+## Overview
 
 - **Extracts audio** from YouTube videos  
 - **Splits** long audio files into short chunks  
@@ -15,7 +15,7 @@ This project combines a Python backend with a browser extension frontend to make
 
 ---
 
-## π—‚οΈ Project Structure
+## Project Structure
 
 ```
 youtube-to-notes/
@@ -31,7 +31,7 @@ youtube-to-notes/
 
 ---
 
-## π§  How It Works
+## How It Works
 
 ### 1. **Download YouTube Audio**
 Downloads the best-quality audio stream using `yt_dlp`, and converts it to WAV.
@@ -69,11 +69,11 @@ summarize_text(full_transcript)
 
 ---
 
-## π Browser Extension
+## Browser Extension
 
 A simple browser extension allows you to summarize YouTube videos directly from your browser.
 
-### β… Features:
+### Features:
 - Detects current video URL
 - Sends it to your Python backend
 - Receives the summarized notes
@@ -85,7 +85,7 @@ A simple browser extension allows you to summarize YouTube videos directly from 
 
 ---
 
-## π› οΈ Requirements
+## Requirements
 
 ### Python Packages
 - `yt_dlp`
@@ -98,7 +98,7 @@ A simple browser extension allows you to summarize YouTube videos directly from 
 
 ---
 
-## π” Authentication
+## Authentication
 
 ### Google Cloud Speech-to-Text
 - Requires a valid Google Cloud project
